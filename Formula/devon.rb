@@ -2,16 +2,16 @@
 class Devon < Formula
   desc "Devon, Redbubble's dev environment starter."
   homepage "https://github.com/redbubble/devon"
-  version "0.0.1-pre5"
+  version "0.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/redbubble/devon/releases/download/v0.0.1-pre5/devon_0.0.1-pre5_darwin_amd64.tar.gz"
-    sha256 "c96fe5495501abaed5bc2ad88dfc31335fd87a3f4b738c06377b3adfef6871f8"
+    url "https://github.com/redbubble/devon/releases/download/v0.0.1/devon_0.0.1_darwin_amd64.tar.gz"
+    sha256 "c50384b5ef690f08c5f3bb221a38b4d5bafd44fe823df7b0b22aae5e626f3775"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/redbubble/devon/releases/download/v0.0.1-pre5/devon_0.0.1-pre5_linux_amd64.tar.gz"
-      sha256 "ae59397868a18eb7adaf28fe1fe9c352b37c35e752a7d2e9fe5c107b16dd070a"
+      url "https://github.com/redbubble/devon/releases/download/v0.0.1/devon_0.0.1_linux_amd64.tar.gz"
+      sha256 "84c447e92e2e76b66ec3d693d4b1b7423ccea73ebbbd132d486bc854f08290c6"
     end
   end
 
